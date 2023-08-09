@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/")
         public String index() {
-            return "wellcome our website, please use /hello!\n";
+            return "wellcome our website, please use /hellotest!\n";
         }
     @RequestMapping("/bye")
         public String index2() {
